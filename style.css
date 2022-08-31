@@ -1,0 +1,79 @@
+body{
+    background: rgb(208, 195, 212);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 300;
+}
+h2{
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+
+}
+p{
+    font-size: 22px;
+    width: 900px;
+    margin: 0 auto;
+}
+
+#hero{
+    width: 50%;
+    border-radius: 30%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+form{
+    background: linear-gradient(rgba(61, 61, 61, 0.856), rgba(255, 255, 255, 0.856));
+    width: 80%;
+    max-width: 400px;
+    margin: 40px auto;
+    color: aliceblue;
+    padding: 40px 70px;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: left;
+
+}
+form label{
+    width: 100px;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+form input, 
+form textarea
+form select{
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 86%;
+    /* background: transparent; */
+    border: 1px solid white;
+}
+
+form button{
+    background: black;
+    color: #ffffff;
+    padding: 15px 50px;
+    font-size: 22px;
+    width: 100%;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form button:hover{
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
+    color: black;
+}
+
+img{
+    size: 20%;
+}
