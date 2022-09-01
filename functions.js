@@ -53,6 +53,29 @@ function nMayor() {
 
 }
 
+function nMenor() {
+
+    var a;
+    var b;
+    var c; 
+    var menor
+    
+    a= parseInt (prompt("por favor ingresar el primer valor"));
+    b= parseInt (prompt("por favor ingresar el segundo valor"));
+    c= parseInt (prompt("por favor ingresar el tercer valor"));
+
+
+    if (a<=b){ 
+        menor = a    
+    }else if (b<=a){
+        menor = b 
+    }else{
+        menor = c  
+    }
+
+    alert("el número " + menor + " es el menor")
+}
+
 function parOimpar() {
 
     var a;
@@ -112,7 +135,7 @@ function centimetros(){
     var a;
     var centimetros;
 
-    a= parseInt(prompt("por favor ingrese el valor de los metros que desea hallar en centimetros"));
+    a= parseInt(prompt("por favor ingrese el valor de los metros que desea saber en centimetros"));
 
     centimetros= a*100; 
 
@@ -146,6 +169,31 @@ function capital(){
     g_a = c*(0.24*a);
     g_t = g_a+c;
 
+    alert("La ganacia total es:  " + g_a);
     alert("La ganacia total es:  " + g_t);
 
+}
+
+function colegio(){
+
+    var a;
+    var b;
+    var c;
+    var d;
+    var e;
+    var resultado;
+
+    a= parseInt(prompt("por favor ingrese la primera calificación del estudiante"));
+    b= parseInt(prompt("por favor ingrese la segunda calificación del estudiante"));
+    c= parseInt(prompt("por favor ingrese la tercera calificación del estudiante"));
+    d= parseInt(prompt("por favor ingrese la cuarta calificación del estudiante"));
+    e= parseInt(prompt("por favor ingrese la quinta calificación del estudiante"));
+
+    resultado = (a+b+c+d+e)/5;
+
+    if (resultado >= 3){ 
+        alert("el promedio del estudiante es de " + resultado + " por lo cual aprobó")    
+        } else{
+            alert("el promedio del estudiante es de " + resultado + " por lo cual reprobó")
+        } 
 }
